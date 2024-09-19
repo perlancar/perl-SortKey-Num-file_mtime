@@ -43,6 +43,12 @@ sub gen_keygen {
  my $by_length = SortKey::Num::length::gen_keygen;
  my @sorted = &nkeysort($by_length, "newest", "old", "new"");
 
+A real-world usage example (requires CLI L<sort-by-sortkey> from
+L<App::sort_by_sortkey>):
+
+ # find directories named '*.git' that are newer than 7 days, and sort them by newest first
+ % find -maxdepth 1 -type d -name '*.git' -mtime -7 | sort-by-sortkey Num::file_mtime -r
+
 
 =head1 DESCRIPTION
 
