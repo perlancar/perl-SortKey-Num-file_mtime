@@ -57,4 +57,11 @@ take the file's modification time (in Unix epoch) as key.
 Bool, default true. If set to false, will use C<lstat()> function instead of the
 default C<stat()>.
 
+
+=head1 SEE ALSO
+
+L<Sorter::file_mtime>
+
+L<Comparer::file_by_mtime>
+
 =cut

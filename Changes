@@ -1,15 +1,3 @@
-0.003   2024-05-15  Released-By: PERLANCAR; Urgency: low
-
-        - No functional changes.
-
-        - [dist] Express that we follow SortKey 0.2.0.
-
-
-0.002   2024-01-23  Released-By: PERLANCAR; Urgency: medium
-
-        - Rename module/dist SortKey::Num::{by_,}length.
-
-
-0.001   2024-01-23  Released-By: PERLANCAR
+0.001   2024-09-19  Released-By: PERLANCAR
 
         - First release.
